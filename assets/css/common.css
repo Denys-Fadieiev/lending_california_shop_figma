@@ -1,0 +1,26 @@
+:root{
+  --ff-inter: 'Inter';
+  --fc-black: #000000;
+}
+
+body{
+  min-width: 1440px;
+  font-size: 14px;
+  color: var(--fc-black);
+}
+
+.content{
+  max-width: 1295px;
+  margin: 0 auto;
+}
+
+.flex-container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.button-icon{
+  border: none;
+  background-color: white;
+}

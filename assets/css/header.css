@@ -1,0 +1,15 @@
+.header{
+  padding: 31px 0;
+}
+
+.nav-list-item{
+  padding: 0 16px;
+}
+
+.nav-list-items-link{
+  font-family: var(--ff-inter);
+}
+
+.icon-wrapper{
+  padding: 0 16px;
+}
