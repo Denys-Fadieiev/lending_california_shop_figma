@@ -5,15 +5,21 @@
 		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<title>California</title>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Ibarra+Real+Nova&family=Inter&family=Readex+Pro&display=swap');
+      </style>
+
     <link rel="stylesheet" href="./assets/css/style.css">
 	</head>
 	<body>
 		<header class="header">
 			<div class="wrapper">
 				<div class="content flex-container">
+
           <div class="wrapper-logo">
 						<img class="img" src="./assets/img/logo/logo.png" alt="logo"/>
 					</div>
+
           <nav class="header-nav">
             <ul class="nav-list flex-container">
               <li class="nav-list-item">
@@ -30,29 +36,74 @@
               </li>
             </ul>
           </nav>
-          <header class="options flex-container">
+
+          <div class="options flex-container">
             <div class="header-search">
-              <div class="search-wrapper">
+              <div class="wrapper-search">
                 <form class="search-form" action="" >
                   <!-- <input type="text" placeholder="Search"> -->
                   <button class="button-icon" type="submit">
-                    <div class="icon-wrapper">
-                      <img src="./assets/img/icons/search.svg" alt="search icon" class="img">
+                    <div class="wrapper-icon">
+                      <img class="img" src="./assets/img/icons/search.svg" alt="search icon" >
                     </div>
                   </button>
                 </form>
               </div>
             </div>
             <div class="header-cart">
-              <div class="icon-wrapper">
+              <div class="wrapper-icon button-icon">
                 <a class="cart-link" href="#">
-                  <img src="./assets/img/icons/cart.svg" alt="cart icon">
+                  <img class="img" src="./assets/img/icons/cart.svg" alt="cart icon">
                 </a>
               </div>
             </div>
-          </header>
+          </div>
+
 				</div>
 			</div>
 		</header>
+
+    <section class="slider">
+      <div class="content">
+        <div class="wrapper-slider">
+          <aside class="slide">
+            <div class="slide-wrapper-item">
+              <h1 class="slide-title">
+                The new phones are here take a look.
+              </h1>
+              <p class="slide-text">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Scelerisque in est dui, aliquam, tempor. Faucibus morbi turpis.
+              </p>
+              <div class="slide-wrapper-button">
+                <button class="button" type="submit">
+                  Explore
+                </button>
+              </div>
+            </div>
+            <div class="slide-wrapper-img">
+              <img class="img" src="./assets/img/jpg/new_phones.png" alt="phones">
+            </div>
+          </aside>
+        </div>
+
+        <div class="slider-button-left">
+          <button class="button-icon">
+            <div class="wrapper-icon">
+              <img src="./assets/img/icons/arrow_left.svg" alt="arrow left">
+            </div>  
+          </button>
+        </div>
+
+        <div class="slider-button-right">
+          <button class="button-icon">
+            <div class="wrapper-icon">
+              <img src="./assets/img/icons/arrow_right.svg" alt="arrow right">
+            </div>  
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!-- <script src="./assets/js/slider.js"></script> -->
 	</body>
 </html>
