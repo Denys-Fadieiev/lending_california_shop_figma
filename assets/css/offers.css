@@ -1,0 +1,97 @@
+.offers{
+  padding: 28px 0;
+  font-family: var(--ff-readex-pro);
+  text-align: center;
+}
+
+.wrapper-description{
+  padding: 19px 257px 0 257px;
+}
+
+.title{
+  font-size: 3em;
+}
+
+.decription{
+  padding: 9px 76px 0;
+}
+
+
+.wrapper-cards{
+  display: flex;
+  padding: 55px 0;
+}
+
+.wrapper-left{
+  width: 50%;
+  margin-right: 16px;
+}
+
+.card{
+  box-shadow: 0 0 8px 5px #eaeaf5;
+}
+
+.card:hover{
+  box-shadow: 0 0 8px 5px #cbcbe7;
+}
+
+.card-subtitle{
+  font-size: 2.3em;
+}
+
+.card-type{
+  font-family: var(--ff-inter);
+}
+
+/* LEFT CARDS */
+.left-cards-padding{
+  padding: 0 42px;
+}
+
+.wrapper-left-cards-item{
+  text-align: right;
+}
+
+/* CARD LAPTOP */
+.wrapper-left > aside:first-child{
+  margin-bottom: 50px;
+}
+
+.wrapper-card-laptop-img{
+  max-width: 500px;
+}
+
+/* CARD WATCH */
+.wrapper-card-watch-img{
+  max-width: 381px;
+}
+
+/* RIGHT CARDS */
+.wrapper-right{
+  width: 50%;
+  display: flex;
+}
+
+/* CARD PHONES */
+.card-phones{
+  margin-right: 16px;
+}
+
+.wrapper-card-phones-img{
+  max-width: 296px;
+  padding: 144px 0 41px 16px;
+}
+
+.wrapper-right-cards-item{
+  text-align: center;
+}
+
+/* CARD TABLET */
+.card-tablet{
+  padding-top: 114px;
+}
+
+.wrapper-card-tablet-img{
+  padding-top: 42px;
+}
+

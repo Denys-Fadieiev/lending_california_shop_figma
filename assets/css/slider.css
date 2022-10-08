@@ -1,0 +1,54 @@
+.slider{
+  padding: 28px 0;
+}
+
+.wrapper-slider{
+  background-color: var(--backgraund-col);
+  padding-left: 56px;
+  border-radius: 32px;
+  overflow: hidden;
+}
+
+.slide{
+  display: flex;
+}
+
+.slide-wrapper-item,
+.slide-wrapper-img{
+  width: 50%;
+}
+
+
+
+.slide-title{
+  padding-top: 145px;
+  margin-bottom: 20px;
+  font-size: 3.85em;
+  line-height: 68px;
+  font-family: var(--ff-readex-pro);
+  
+}
+
+.slide-text{
+  font-size: 1.15em;
+  line-height: 1.35em;
+  font-family: var(--ff-inter);
+  margin-bottom: 30px;
+}
+
+.slide-wrapper-button{
+  margin-bottom: 127px;
+}
+
+
+
+.slider-button-left,
+.slider-button-right{
+  position: absolute;
+  top: 263px;
+}
+
+.slider-button-right{
+  right: 0px;
+}
+

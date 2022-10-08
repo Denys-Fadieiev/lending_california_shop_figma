@@ -1,6 +1,8 @@
 :root{
   --ff-inter: 'Inter';
+  --ff-readex-pro: 'Readex Pro';
   --fc-black: #000000;
+  --backgraund-col:#DCE5E2;
 }
 
 body{
@@ -10,6 +12,7 @@ body{
 }
 
 .content{
+  position: relative;
   max-width: 1295px;
   margin: 0 auto;
 }
@@ -22,5 +25,27 @@ body{
 
 .button-icon{
   border: none;
-  background-color: white;
+  background: none;
+}
+
+.button-icon:hover{
+  transform: scale(1.2);
+}
+
+.button{
+  padding: 14px 53px;
+  font-size: 1.28em;
+  font-family: var(--ff-inter);
+  border-radius: 200px;
+  background: none;
+}
+
+.button:hover{
+  background: var(--fc-black);
+  color: #DCE5E2;
+}
+
+.img{
+  max-width: 100%;
+  height: 100%;
 }

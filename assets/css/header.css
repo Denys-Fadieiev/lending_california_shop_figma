@@ -10,6 +10,11 @@
   font-family: var(--ff-inter);
 }
 
-.icon-wrapper{
+.nav-list-items-link:hover{
+  text-decoration: underline;
+  font-weight: 600;
+}
+
+.wrapper-icon{
   padding: 0 16px;
 }
